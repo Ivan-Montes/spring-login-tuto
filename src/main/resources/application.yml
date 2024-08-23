@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: spring-login-tuto
+
+  config:
+    import: optional:file:.env[.properties]
+
+jwt:
+  key: ${SECRET_KEY}
